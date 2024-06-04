@@ -1,0 +1,13 @@
+The circuit is very simple, I have used D1, D2, D5 & D6 GPIO to control the 4-channel relay module.
+
+And the GPIO SD3, D3, D7 & RX are connected with manual switches to control the relay module manually.
+
+I have used the INPUT_PULLUP function in Arduino IDE instead of using the pull-up resistors with each switch.
+
+As per the source code, when the control pins of the relay module receive the LOW signal the respective relay will turn on and the relay will turn off for the HIGH signal in the control pin.
+
+I have used a 5V 2Amp mobile charger to supply the circuit.
+
+**The Boot will fail if SD3 and D3 are grounded during the Boot process. So manual switch-S1 and switch-S2 must be OFF during NodeMCU Boot.
+
+Now, if you want to use pushbuttons then just connect the pushbuttons across the GPIO pins and GND pin instead of switches.

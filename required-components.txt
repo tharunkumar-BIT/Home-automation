@@ -1,0 +1,7 @@
+Required Components:
+
+1) NodeMCU
+2) 4-channel 5V SPDT Relay Module
+3) Manual Switches or Pushbuttons
+4) Amazon Echo Dot (optional)
+5) Google Nest Mini (optional)
